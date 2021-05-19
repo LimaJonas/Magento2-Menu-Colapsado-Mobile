@@ -1,0 +1,23 @@
+/* Dropdown das categorias */
+li.level0 ul {
+    display:none;
+}
+li.level0 ul a {
+    position:relative;
+}
+.rm-expand {
+    float:right;
+    display:block;
+    font-family: 'icons-blank-theme';
+    font-size:32px;
+    position:absolute;
+    right: 7px;
+    top: -6px;
+    color: #808080;
+}
+@media only screen and (min-width: 768px){
+    .rm-expand {
+        font-size: 28px !important;
+        top: -2px !important;
+    }
+}
